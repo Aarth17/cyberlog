@@ -127,8 +127,4 @@ if (number % 2 == 0) {
 
 
 result = "The number $number is Even.";
-
-
-
-If you want a combined section containing **JIT vs AOT + Conditionals + String Interpolation** all in one block, I can generate that too!
 ```

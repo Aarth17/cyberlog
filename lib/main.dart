@@ -52,7 +52,7 @@ class _EvenOddAppState extends State<EvenOddApp> {
                 }
                 setState(() {});
               },
-              child: Text("Check"),cd
+              child: Text("Check"),
             ),
             SizedBox(height: 20),
             Text(

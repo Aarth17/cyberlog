@@ -1,16 +1,24 @@
-# cyberlog
+# CyberLog – Flutter Project
 
-A new Flutter project.
+## Log Class & UI Rendering
 
-## Getting Started
+### Class Definition
+A custom `Log` class was created to structure the log data.  
+It contains the following properties:
+- `String action`
+- `DateTime timestamp`
+- `String status`
 
-This project is a starting point for a Flutter application.
+This helps organize related data into a single structure.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### List of Objects
+Inside the main widget, a `List<Log>` was created with 3–4 sample log entries:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+List<Log> logs = [
+  Log(action: "User Login", timestamp: DateTime.now(), status: "Success"),
+  Log(action: "Failed Login Attempt", timestamp: DateTime.now(), status: "Failed"),
+  Log(action: "Profile Updated", timestamp: DateTime.now(), status: "Success"),
+];

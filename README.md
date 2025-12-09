@@ -114,7 +114,7 @@ Dart uses two different compilation methods depending on whether you are develop
 - Provides **faster startup times**.
 - Offers **better overall performance** for final builds.
 
-## 🔹 Using Dart Conditionals for Even/Odd Checking
+## Using Dart Conditionals for Even/Odd Checking
 
 In this project, a number from the TextField is first read as a **String**, converted into an **int**, and then checked using a simple conditional:
 

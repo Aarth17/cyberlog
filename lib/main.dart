@@ -18,8 +18,6 @@ class CyberLogApp extends StatelessWidget {
   }
 }
 
-// ---------------- DASHBOARD ----------------
-
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
 
